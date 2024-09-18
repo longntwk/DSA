@@ -19,12 +19,10 @@ public class _1295_Find_Numbers_with_Even_Number_of_Digits {
         }
         return biendem;
     }
-    
+
     public static void main(String[] args) {
         int[] nums  = {1, 22, 33, 4444};
         System.out.println(findNumbers(nums));
     }
-
-    
 }
  
