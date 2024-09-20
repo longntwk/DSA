@@ -4,6 +4,7 @@ public class _27_Remove_Element {
         for (int i = 0; i < n;) {
             if(a[i] == val){
                 //xóa phần tử a[i]
+                ///lười gt
                 for(int j = i; j <= (n - 2); j++){
                     a[j] = a[j + 1];
                 }
