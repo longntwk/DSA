@@ -5,7 +5,6 @@ public class _88_Merge_Sorted_Array_Use_2_Pointer {
         int j = n - 1;
         int k = (m+n) - 1;                                                                                                                                                                                                                           
         
-
         while(k >= 0){
             if(j < 0){
                 n1[k] = n1[i];
@@ -14,9 +13,11 @@ public class _88_Merge_Sorted_Array_Use_2_Pointer {
                 n1[k] = n2[j];
                 j--;
             }else if(n1[i] > n2[j]){
-                 
+                 n1[k] = n2[j];
+                 j--;
             }else{
                 n1[k] = n2[j];
+                i--;
             }
             k--;
         }
