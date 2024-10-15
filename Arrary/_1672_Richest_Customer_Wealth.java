@@ -19,7 +19,6 @@ public class _1672_Richest_Customer_Wealth {
                 max = tongTaiSan[i];   
             }
         }
-
         return max;
     }
     public static void main(String[] args) {
